@@ -1,0 +1,39 @@
+{
+  "name": "multipart-poster",
+  "version": "1.0.0",
+  "description": "Easy way to post multipart forms, including file uploads",
+  "main": "MultipartPoster.js",
+  "scripts": {
+    "test": "mocha tst/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pilatch/multipart-poster.git"
+  },
+  "keywords": [
+    "multipart",
+    "request",
+    "post",
+    "form",
+    "file",
+    "upload",
+    "file upload",
+    "multipart form",
+    "upload files",
+    "post multipart form"
+  ],
+  "author": "Ethan B Martin <ethan@pilatch.com> (http://pilatch.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pilatch/multipart-poster/issues"
+  },
+  "homepage": "https://github.com/Pilatch/multipart-poster#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "multiparty": "^4.1.2"
+  },
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}

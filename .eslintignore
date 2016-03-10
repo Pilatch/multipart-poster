@@ -1,0 +1,4 @@
+# ignore minified, TypeScript, CoffeeScript
+**/*.{min,ts,coffee}.js
+# running eslint ** will pick up json files, and we don't want that
+**/*.json
