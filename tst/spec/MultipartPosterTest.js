@@ -435,7 +435,7 @@
         fooExpectation: "0"
       }, oneIsDone)
     })
-    it("should skip certain parameters if desired", done => {
+    it("should skip sending certain parameters if desired", done => {
       var poster = new MultipartPoster()
       var formData = {
         foo: "FOO",

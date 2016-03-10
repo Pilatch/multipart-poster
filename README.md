@@ -232,5 +232,6 @@ In this example, we regress to the behavior exhibited by the [request module](ht
 * Throw an error if desired when encountering a null parameter.
 * Handle undefined values in formData as specified by the user.
 * Throw an error if desired when encountering an undefined parameter.
+* Skip sending certain parameters if desired.
 * Allow you to specify a method other than POST.
 * PUT strings and files via the `.send` alias for `.post`, for semantics.
